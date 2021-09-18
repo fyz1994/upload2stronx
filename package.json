@@ -1,0 +1,27 @@
+{
+  "name": "Upload2Stronx",
+  "version": "0.0.1",
+  "description": "前端对接 stronx 系统的工具类",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "npm link",
+    "build": "rollup -c",
+    "prepare": "npm run build",
+    "version": "git add --all",
+    "postversion": "git push && git push --tags"
+  },
+  "keywords": [
+    "upload"
+  ],
+  "author": "yizhen.fan",
+  "license": "ISC",
+  "devDependencies": {
+    "rollup": "^2.56.3",
+    "rollup-plugin-typescript2": "^0.30.0",
+    "typescript": "^4.4.2"
+  },
+  "types": "lib/Upload2Stronx.class.d.ts",
+  "files": [
+    "lib"
+  ]
+}
