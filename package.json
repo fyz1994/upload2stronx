@@ -1,5 +1,5 @@
 {
-  "name": "Upload2Stronx",
+  "name": "upload2stronx",
   "version": "0.0.1",
   "description": "前端对接 stronx 系统的工具类",
   "main": "lib/index.js",

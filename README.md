@@ -1,4 +1,4 @@
-# Upload2Stronx
+# upload2stronx
 
 ## 功能描述
 
@@ -10,10 +10,10 @@
 
 ```bash
 # 使用 npm 安装依赖
-npm i --save Upload2Stronx
+npm i --save upload2stronx
 
 # 或者使用 yarn 安装依赖
-yarn add Upload2Stronx
+yarn add upload2stronx
 ```
 
 ### 在代码中使用
@@ -21,7 +21,7 @@ yarn add Upload2Stronx
 1、导入模块:
 
 ```javascript
-import Upload2Stronx from "Upload2Stronx";
+import Upload2Stronx from "upload2stronx";
 ```
 
 2、初始化 Upload2Stronx 实例:
