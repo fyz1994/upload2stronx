@@ -2,7 +2,10 @@
 
 ## 功能描述
 
-前端对接 stronx 系统的工具类
+前端对接 stronx 系统的工具类。
+
+upload2stronx 不提供具体的上传 UI 组件，也不干涉业务前端想要使用哪种 Upload 组件，
+只是帮忙简化将 File 对象处理为 stronx 所需格式并上传到 stronx 的这个过程
 
 ## 使用示例
 
