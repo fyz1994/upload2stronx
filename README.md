@@ -39,6 +39,11 @@ const uploadInstance = new Upload2Stronx(stronxUrl, filePath, stronxJWT);
 
 3、调用上传文件方法 handleUploadFiles 或者 handleUploadFile
 
+这里 handleUploadFiles 或者 handleUploadFile 所做的事情是：
+
+1. 将接收到的 File 对象转为 base64 编码的数据
+2. 向 stronx 发送上传文件的请求
+
 > handleUploadFiles 方法用于上传多个文件，需要传入 File 数组
 > handleUploadFile 方法用于上传单个文件，需要传入 File
 

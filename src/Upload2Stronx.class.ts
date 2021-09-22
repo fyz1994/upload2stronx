@@ -58,7 +58,7 @@ export default class Upload2Stronx {
       method: "POST",
       headers: {
         "Content-Type": "application/json;charset=utf-8",
-        "Mtrpc-Mtrpc-Jwt": this.stronxJWT,
+        "Mtrpc-Stronx-Token": this.stronxJWT,
       },
       body: JSON.stringify(requestBody),
     });
